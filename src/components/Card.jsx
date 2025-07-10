@@ -2,6 +2,7 @@ import React from "react";
 import {IconOfLock} from "../assets/icons/IconOfLock";
 import {IconOfCheck} from "../assets/icons/IconOfChec";
 import {IconOfStar} from "../assets/icons/IconOfStar";
+import TextArrow from "../assets/icons/text-arrow.svg";
 
 export const Card = ({ data }) => {
     return (
@@ -12,7 +13,9 @@ export const Card = ({ data }) => {
                 </div>
                 <div className="w-[80%] lg:w-[90%]">
                     <p className="font-medium text-lg m-0 lg:w-full lg:flex lg:items-center lg:justify-between">
-                        <span>{data?.title}</span>
+                        <span>
+                            {data?.title} <img src={TextArrow} alt="" className="inline align-middle ml-1 w-[14px] h-[14px]"/>
+                        </span>
                         <div className="text-[#00A1B3] font-semibold text-xl hidden lg:block">{data?.price}</div>
                     </p>
                     <div className="bg-[#00A1B3] rounded-xl flex items-center justify-start gap-2 px-3 w-max mt-1 lg:hidden">

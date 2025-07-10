@@ -14,7 +14,7 @@ const data = [
         rating: '4.6',
         reviews: '456',
         price: 'Free',
-        img: <IconOfLock className="lg:w-[70px] lg:h-[70px] md:w-[50%] sm:w-[50%]"/>,
+        img: <IconOfLock className="lg:w-[70px] lg:h-[70px] md:w-[50%] w-[50%]"/>,
         largeDesc: 'Extension for the Google Chrome browser that automatically recognizes captchas such as ReCaptcha V2, V3, GeeTest, Arkose Labs FunCaptcha, Human Captcha and others.'
     },
     {
@@ -25,7 +25,7 @@ const data = [
         rating: '4.6',
         reviews: '456',
         price: '$67',
-        img: <IconOfBox className="lg:w-[70px] lg:h-[70px] md:w-[50%] sm:w-[50%]"/>,
+        img: <IconOfBox className="lg:w-[70px] lg:h-[70px] md:w-[50%] w-[50%]"/>,
         largeDesc: 'Solves reCAPTCHAs automatically, using a single line of code.'
     },
     {
@@ -36,7 +36,7 @@ const data = [
         rating: '4.6',
         reviews: '456',
         price: '$67',
-        img: <IconOfJs className="lg:w-[70px] lg:h-[70px] md:w-[50%] sm:w-[50%]"/>,
+        img: <IconOfJs className="lg:w-[70px] lg:h-[70px] md:w-[50%] w-[50%]"/>,
         largeDesc: 'Extension for the Google Chrome browser that automatically recognizes captchas such as ReCaptcha V2, V3, GeeTest, Arkose Labs FunCaptcha, Human Captcha and others.'
     }
 ];
